@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_view_users"
+            android:icon="@drawable/ic_users"
+            android:title="View Users" />
+        
+        <item
+            android:id="@+id/nav_manage_products"
+            android:icon="@drawable/ic_products"
+            android:title="@string/manage_products" />
+        
+        <item
+            android:id="@+id/nav_manage_orders"
+            android:icon="@drawable/ic_orders"
+            android:title="@string/manage_orders" />
+    </group>
+
+    <item android:title="Admin Actions">
+        <menu>
+            <item
+                android:id="@+id/nav_delete_customers"
+                android:icon="@drawable/ic_delete"
+                android:title="@string/delete_customers" />
+            
+            <item
+                android:id="@+id/nav_add_admin"
+                android:icon="@drawable/ic_add_admin"
+                android:title="@string/add_admin" />
+        </menu>
+    </item>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/nav_logout" />
+        </menu>
+    </item>
+</menu> 
